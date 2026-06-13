@@ -7,6 +7,10 @@
       }
     },
     {
+  "route": "/manifest.json",
+  "allowedRoles": ["anonymous"]
+},
+    {
       "route": "*.{png,jpg,gif,xml,ico,css,js}",
       "headers": {
         "cache-control": "must-revalidate, max-age=15770000"
